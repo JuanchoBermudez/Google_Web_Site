@@ -1,0 +1,516 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+
+}
+
+body {
+    width: 320px;
+    height: 3050px;
+   /*  margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.encabezado {
+    width: 100%;
+    height: 11%;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo_pricipal {
+    width: 100%;
+    height: 2740px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF8F7;
+
+}
+
+
+.encabezado_principal_uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 72.7%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.encabezado_principal_letter {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "DM Sans",sans-serif;
+    color: #F7931A ;
+}
+
+.encabezado_principal_dos {
+    width: 100%;
+    height: 37%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.encabezado_principal_letter_dos {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "DM Sans",sans-serif;
+    color: #FFFFFF ;
+}
+
+.encabezado_principal_tres {
+    width: 100%;
+    height: 17%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.encabezado_principal_letter_tres {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "DM Sans",sans-serif;
+    color: #FFFFFF ;
+    line-height: 18px;
+}
+
+.formulario {
+    width: 200px;
+    height: 48px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -25rem;
+    box-shadow: 0 1px 10px 0 #20212447;
+    position: absolute;
+
+
+}
+.formulario p {
+    /* display: inline-block; */
+    font-size: 14px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #201E1C;
+}   
+.formulario img {
+    margin-left: 0.5px;
+}
+.cuerpo_pricipal_uno {
+    width: 100%;
+    height: 23.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.cuerpo_pricipal_uno_img {
+    width: 60%;
+    height: 28%;
+    margin-top: 4rem;
+    
+}
+.cuerpo_pricipal_uno_texto {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.cuerpo_pricipal_uno_texto_titulo{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "DM Sans",sans-serif;
+    color: black ;
+    text-align: center;
+
+}
+.cuerpo_pricipal_uno_texto_contenido {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "DM Sans",sans-serif;
+    color: #757575 ;
+    text-align: center;
+    margin-top: 24px;
+}
+.cuerpo_pricipal_uno_indicadores {
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+.cuerpo_pricipal_uno_indicadores h2 {
+
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "DM Sans",sans-serif;
+    color: #FF9536 ;
+    margin: 10px 0px 0px -100px;
+    text-align: start;
+}
+
+.indicador_fuente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+    background-color: #FFFFFF;
+    width: 196px;
+    height: 39px;
+    border: 1px;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.indicador_fuente-titulo {
+    background-color: #FAF8F7  ;
+    
+
+}
+
+.indicador_fuente_letra{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #B5B0AC;
+    font-style: normal;
+    letter-spacing:1px;
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    margin: 10px 0px 0px 10px;
+
+
+}
+
+.indicador_fuente-fecha{
+    background-color: #FFE9D5;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.indicador_fuente_letra-fecha{
+    width: 196px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 900;
+    color: #B5B0AC;
+    font-style: normal;
+    letter-spacing:1px;
+    color: #282623;
+    text-align: start;
+    margin: 10px 0px 0px 3px;
+}
+
+.indicador_fuente_numero_grafico{
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    font-style: normal;
+    letter-spacing: 1px;
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    margin: 10px 0px 0px 20px;
+   
+}
+
+.cuerpo_pricipal_dos {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #201E1C;
+    margin-top: 100px;
+}
+
+.caja_principal_dos {
+    width: 90%;
+    height: 18%;
+    background-color: #282623;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.caja_principal_dos_titulo {
+    font-family: "Dm Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: start;
+    margin: 10px 0px 0px 10px;
+}
+
+.caja_principal_dos_texto {
+    font-family: "Dm Sans";
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    font-style: normal;
+    text-align: justify;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.caja_principal_dos-variante {
+    background-color: #201E1C;
+}
+
+.caja_principal_dos_titulo-var {
+    text-align: center;
+}
+
+.caja_principal_dos_texto-var {
+    width: 100%;
+}
+
+.cuerpo_pricipal_tres {
+    width: 100%;
+    height: 14.31%;
+    position: relative;
+}
+
+.cuerpo_pricipal_tres img {
+    width: auto;
+}
+.cuerpo_pricipal_tres div {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+
+/* Cuarta seccion */
+
+.cuerpo_pricipal_cuatro {
+     
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cuerpo_pricipal_cuatro div {
+    margin-top: 64px;
+    height: max-content;
+    
+}
+
+.cuerpo_pricipal_cuatro_caja_tarjetero{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuerpo_pricipal_cuatro_caja_tarjetero_pago {
+    width: 220px;
+    height: 72% ;
+    background-color: black;
+
+}   
+.plans_container_sliders {
+    display:flex;
+    
+    gap:2   0px ; 
+    margin-top:42px;
+    align-items: center;
+    height: 76%;
+    width: fit-content;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+    
+
+    
+}   
+
+.plans_container_sliders_card {
+    display: flex; 
+    flex-direction: column;
+    scroll-snap-align: center;
+    align-items: center;
+    width: 190px;
+    height: 260px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #20212447;
+    position: relative;
+}
+
+
+
+/*/* offset-x (positivo derecha del contenedor-negativo ixquierda del contenedor)| offset-y (positivo bajo del contenedor-negativo arriba del contenedor)| blur-radius (estre mas positivo mas sombra negra rodea el contenedor) | spread-radius | color 
+
+box-shadow: 0 1px 10px 0 #20212447;
+
+<offset-x> <offset-y>
+Estos son dos valores <length> para definir el desplazamiento de la sombra. <offset-x> especifica la distancia horizontal. Los valores negativos colocan las combra a la izquierda de el elemento. <offset-y> Especifica la distancia vertical. Los valores negativos colocan la sombra por encima del elemento. Ver<length> para posibles unidades.
+Si ambos valores son 0, la sombra es ubicada detras del elemento (y puede generar un efecto de difuminación <blur-radius> y/o <spread-radius> está establecido).
+
+Este es el tercer valor <length>. Cuando mayor sea este valor, mayor sera la difuminación, por consecuencia la sombra se vuelve más grande y ligera. Los valores negativos no son permitidos. Si esto no es especificado, su valor será 0 (el borde de la sombra es fuerte). La especificación no incluye un algoritmo exacto para como el radio de desenfoque debe ser calculado, sin embargo, explica lo siguiente:
+
+<spread-radius>
+Este es el cuarto valor <length> . Los valores positivos harán que la sombra se expanda y crezca más, los valores negativos harán que la sombra se reduzca de tamaño. Si no se especifica, este será 0 (la sombra será del mismo tamaño del elemento).*/
+
+.plans_container_sliders_card_title {
+    width: 52%;
+    height: 14%;
+    background-color:  #F7931A;
+    border-radius: 10px;
+    position: absolute;
+    border-radius: 8px;
+    right:25%;
+    top: -15px;
+    font-family: "Inter";
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.plans_container_sliders_card_anula_pay {
+    width: 52%;
+    height: 14%;
+    margin-top: 31px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.plans_container_sliders_card_anula_dollar {
+width: 34%;
+height:max-content;
+display: grid;
+grid-template-columns: 0.2fr 1fr;
+font-family: "Inter";
+font-style: normal;
+
+line-height: 63px;
+letter-spacing: -0.08em;
+color: #000000;
+}
+
+.plans_container_sliders_card_anula_dollar p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+.plans_container_sliders_card_anula_dollar span{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+}
+
+.plans_container_sliders_card_save_money {
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #757575;
+}
+.plans_container_sliders_card_button {
+    width: 79%; 
+    height: 21%;
+    margin-top: 16px;
+    background: #FAF8F7;
+    border: 2px solid #F7931A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.plans_container_sliders_card_button p {
+    background-image: url("../Curso_Responsive_Design_Mobile_first/Assets/icons/orange-right-arrow.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+
+}
+footer {
+    width: 100%;
+    height: 5%;
+    background: #F7931A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer div {
+    width: 50%;
+    margin-left: 40px;
+    
+
+
+}
+
+footer p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: start;
+    color: #FFFFFF;
+    
+    
+}

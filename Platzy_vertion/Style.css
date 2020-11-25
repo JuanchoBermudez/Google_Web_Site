@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: "DM Sans",sans-serif;
+    
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(36deg, rgba(227,149,38,1) 0%, rgba(0,0,26,1) 100%);
+
+}
+header img {
+    width:150px;
+    height:24px;
+    margin-top: 60px;
+    align-self: center; /* Cuando se tiene un contedor padre con propiedad display-flex...se posiciona los elementos hijos con la propiedad align-self */
+    
+}
+.header__title_container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height:218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header__title_container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    line-height: 26px;
+}
+.header__title_container p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFE9D5;
+}
+.header__title_container .header_button {
+    position: absolute;
+    top: 270px;
+    display: block;
+    margin-top: 40px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    text-align: center;
+    background-color: #FAF8F7;
+    box-shadow: black 0px 4px 8px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    right: 50px;
+    
+}
+.header_button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;  
+    background-image: url("../Assets/icons/down-arrow.svg");
+
+}
+main {
+    width: 320px;
+    height: auto;/* El mismo contenido va definiendo la altura del contenedor  */ 
+    background-color: #E5E5E5;
+    margin: 0 auto;
+   
+
+}
+
+/* Segunda seccion */
+.main_exchange_container {
+    width: 100%;
+    height: auto;/* El mismo contenido va definiendo la altura del contenedor  */ 
+    padding: 80px 0 30px 0px;
+}
+.main_exchange_container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.main_exchange_container_img {
+    width: 195px;
+    height: 195px;
+    background-image: url("../Assets/img/Bitcoin.svg");
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.main_exchange_container_p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    line-height: 26px;
+    text-align: center;
+}
+.main_currency {
+    width: 70%;
+    min-width: 235px;
+    height: 360px;
+    margin: 0 auto;
+    
+
+
+}
+.main_currency_title {
+    font-family: "DM Sans",sans-serif; 
+    width: 81px;
+    height: 23px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #FF9536;;
+    
+
+}
+.main_currency_table {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+}
+.main_currency_table tbody {
+    background: #FFFFFF;
+   
+}
+.main_currency_table td {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #B5B0AC;
+    border-radius: 2px;
+}
+.main_currency_table td:last-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.main_currency_table span {
+    display: inline-block;
+    background-image: url("../Assets/icons/trending-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 14px;
+}
+.main_currency_table .up {
+    background-image: url("../Assets/icons/trending-up.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_currency_date *{
+    width: max-content;
+    height: 31px;
+    margin: 16px auto;
+    padding-top: 8px;
+    background-color: #FFE9D5;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282623;
+    text-align: center;
+}
+.main_currency_date  {
+    border-radius: 20px;
+}
+.main_currency_date p {
+    font-weight: 500;
+}
+
+
+
+/* Tercera seccion */
+.main_product_detail {
+    background-color: #201E1C; 
+    width: 320px;
+    height: auto;
+    display: grid;
+    grid-template-rows:repeat(5,1fr);
+    justify-content: center;
+
+}
+main .main_product_detail_cards-header {
+    background-color: #201E1C;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr ;  
+}
+.main_product_detail_cards {
+    width: 288px;
+    height: 152px;
+    background-color: #282623;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;  
+}
+.main_product_detail_img {
+    width: 15%;
+    margin: 10px 0 0 10px;
+
+}
+.main_product_detail_title {
+font-family: "DM Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.main_product_detail_text {
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #808080;
+}
+.main_product_detail_title-change {
+font-family: "DM Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 26px;
+text-align: center;
+padding-top: 20px;
+}
+.main_product_detail_text-change {
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #808080;
+}
